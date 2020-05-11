@@ -63,10 +63,10 @@ public class Reciclagem {
 			}
 		};
 		
-		ControleDespesas(lixosEletronicos);
+		PainelLixosEletronicos(lixosEletronicos);
 	}
 	
-	private static void ControleDespesas(List<LixoEletronico> lixosEletronicos) {
+	private static void PainelLixosEletronicos(List<LixoEletronico> lixosEletronicos) {
 		String opcao ="";
 		String cat = "";
 		String end = "";
